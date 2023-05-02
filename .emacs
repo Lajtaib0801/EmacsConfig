@@ -4,7 +4,7 @@
 (set-frame-font "Ubuntu Mono-14")
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-(ido-mode 1)
+;; (ido-mode 1)
 (require 'evil)
 (evil-mode 1)
 (custom-set-variables
@@ -16,4 +16,4 @@
  '(custom-safe-themes
    '("7923541211298e4fd1db76c388b1d2cb10f6a5c853c3da9b9c46a02b7f78c882" default))
  '(package-selected-packages
-   '(evil flycheck lsp-ui lsp-mode gruber-darker-theme smex company)))
+   '(evil gruber-darker-theme)))
